@@ -5,7 +5,6 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: coco;
 }
 
 #head{
@@ -34,6 +33,7 @@ width: 100%;
 height: 750px;
 filter: brightness(50%);
 }
+
 #wlcm-section{
     columns: white;
     position: absolute;
@@ -78,6 +78,23 @@ p.text {
     margin-top: 0;
 }
 
+.p-title{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    font-size: 58px;
+    padding-top: 40px;
+}
+
+hr {
+    width: 48px;
+    background-color: #E65242;
+    height: 2px;
+    border: none;
+    margin-bottom: 40px;
+}
+
 .programs-list{
     display: flex;
     align-items: center;
@@ -85,13 +102,51 @@ p.text {
     justify-content: space-around;
     padding: 0;
     margin: 0;
+    background-color: rgba(117, 116, 116, 0.5);
+    border: 1px solid rgba(0,0,0,0.5);
+    z-index: 2;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 18px;
+    border-radius: 2px;
 }
 
-.program-sub-list{
+.p-element{
     margin-left: 10px;
     font-family: 'Lato', sans-serif;
+    color: white;
+    padding: 20px;
 }
 
-.program-sub-list h3{
+.p-name{
     color:#E65242;
+}
+
+#programs{
+    background-image: url("../images/pexels-henry-&-co-1171480.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    width: 100%;
+    height: 750px;
+}
+
+.fas{
+    font-size: 30px;
+}
+.global{
+    width: 250px;
+    height: 60px;
+    border: none;
+    border-radius: 2px;
+    background-color: #E65242;
+    color: white;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
 }
