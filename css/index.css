@@ -25,7 +25,7 @@ body{
     font-family: ;
 }
 .image-top{
-background-image: url("../images/pexels-divyesh-maheshwari-3661650.jpg");
+background-image: url("../images/backround.jpg");
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover; 
@@ -59,9 +59,9 @@ filter: brightness(50%);
 p.text {
     font-size: 17px;
     padding: 5px;
-    color:#E65242;
+    color:#D3D3D3;
     line-height: 1.4;
-    border: 2px solid #D3D3D3;
+    border: 2px solid #bcbaba;
 }
 
 .date{
