@@ -8,37 +8,37 @@ const data = [
     name: 'Meddy',
     title: 'A rwandan artist who is among top super starts in rwanda.',
     describtion: 'The Ben started his career at young age and he was winning differnt awards due his singing talent.',
-    image: '../images/meddy.jpg',
+    image: 'images/meddy.jpg',
   },
   {
     name: 'The Ben',
     title: 'A rwandan artist who is among top super starts in rwanda.',
     describtion: 'The Ben started his career at young age and he was winning differnt awards due his singing talent.',
-    image: '../images/the-ben.jpg',
+    image: 'images/the-ben.jpg',
   },
   {
     name: 'Kivumbi the King',
     title: 'A rwandan artist who is among top super starts in rwanda.',
     describtion: 'The Ben started his career at young age and he was winning differnt awards due his singing talent.',
-    image: '../images/kivumbi.jpg',
+    image: 'images/kivumbi.jpg',
   },
   {
     name: 'christopher',
     title: 'A rwandan artist who is among top super starts in rwanda.',
     describtion: 'The Ben started his career at young age and he was winning differnt awards due his singing talent.',
-    image: '../images/christopher.jpg',
+    image: 'images/christopher.jpg',
   },
   {
     name: 'Aline Sano',
     title: 'A rwandan artist who is among top super starts in rwanda.',
     describtion: 'The Ben started his career at young age and he was winning differnt awards due his singing talent.',
-    image: '../images/aline-sano.jpg',
+    image: 'images/aline-sano.jpg',
   },
   {
     name: 'Diamond',
     title: 'A rwandan artist who is among top super starts in rwanda.',
     describtion: 'The Ben started his career at young age and he was winning differnt awards due his singing talent.',
-    image: '../images/platnum.png',
+    image: 'images/platnum.png',
   },
 ];
 
