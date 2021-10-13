@@ -278,16 +278,42 @@ hr {
 
   .desktop {
     display: block;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: space-between;
     background-color: whitesmoke;
-    padding: 10px 0;
+  }
+
+  .top-nav{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 5px !important;
+  }
+
+.black-nav .top-nav{
+  background-color: rgb(80, 80, 80);
+  margin: 0;
+  padding: 10px;
+  padding-right: 50px;
+}
+
+.top-nav-link{
+  font-size: 16px;
+  text-decoration: none;
+  margin-right: 20px;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+  .low-nav{
+    display: flex;
+   background-color: white;
+   align-items: center;
   }
 
   .logo-img {
     display: block;
-    width: 10%;
+    width: 15%;
     background-color: whitesmoke;
     border-radius: 50%;
     padding-left: 50px;
@@ -308,6 +334,9 @@ hr {
     line-height: 44px;
     color: black;
     text-decoration: none;
+  }
+  .nav-link:hover{
+    color: #e65242;
   }
 
   .hello {
