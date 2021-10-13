@@ -52,7 +52,7 @@ body{
     color: darkslategray;
 }
 
-.logo-img{
+.logo-img2{
     display: flex;
     justify-content: center;
 }
@@ -107,9 +107,9 @@ body{
 }
 
 .supporter{
-    width: 35%;
+    width: 30%;
     padding: 5px;
-    margin: 5px;
+   
 }
 
 
@@ -118,9 +118,12 @@ body{
     font-family:'Lato', sans-serif; 
 }
 
-.sub-footer h3,p{
-    padding: 15px;
-    margin: 0;
+.wlcm h3{
+    color:#e65242;
+    text-align: center;
+    margin:0;
+    font-family: 'Lato', sans-serif; 
+    font-weight: 500;
 }
 
 
@@ -137,15 +140,7 @@ body{
     }
 
     .wlcm h3{
-        color:#e65242;
-        text-align: center;
-        margin:0;
-        font-family: 'Lato', sans-serif; 
         font-weight: 600;
-    }
-    .logo-img2{
-        display: flex;
-        justify-content: center;
     }
 
     .l-img{
