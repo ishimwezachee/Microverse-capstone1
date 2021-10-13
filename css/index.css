@@ -160,8 +160,9 @@ hr {
 .other{
     display: none;
 }
-.A-title {
+.featured-title {
   text-align: center;
+  font-family: "Lato", sans-serif;
 }
 
 .card {
@@ -302,6 +303,9 @@ hr {
           margin:0;
           padding: 20px;
       }
+      .programs-list:hover{
+          border: 1px solid white;
+      }
       .btn{
           display: none;
       }
@@ -315,4 +319,15 @@ hr {
       #programs {
         height: 700px;
       }
+   .more{
+       display: none;
+   }
+   
+   .hide{
+       display: block;
+   }
+   .artist-cards{
+       display: grid;
+       grid-template-columns: auto auto;
+   }
 }
