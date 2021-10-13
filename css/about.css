@@ -1,126 +1,176 @@
-@import url("https://fonts.googleapis.com/css2?family=Paytone+One&family=Rubik+Mono+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
-
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.text2 {
-  background-color: gray;
-  text-align: center;
-  padding: 15px 5px;
-  font-family: "Lato", sans-serif;
+
+.text2{
+    background-color: gray;
+    text-align: center;
+    padding: 15px 5px;
+    font-family: 'Lato', sans-serif;
 }
 
-.contact {
-  text-align: center;
-  color: orangered;
-  font-size: 16px;
-  margin-bottom: 0;
+.contact{
+    text-align: center;
+    color: orangered;
+    font-size: 16px;
+    margin-bottom: 0;
 }
 
-.contact span {
-  font-weight: bold;
-  font-family: "Lato", sans-serif;
+.contact span{
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
 }
+
+
 
 .creative {
-  font-size: 26px;
-  text-align: center;
-  font-family: "Lato", sans-serif;
-  margin-bottom: 20px;
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 20px;
 }
 
-.line {
-  width: 200px;
+.line{
+    width:200px;
+   }
+
+.line2{
+       margin-bottom: 20px;
+   }
+
+.log,.past-info{
+    text-align: center;
+    font-family: 'Lato', sans-serif; 
+    font-size: 15px;
+    font-weight: 500;
+    color: darkslategray;
 }
 
-.line2 {
-  margin-bottom: 20px;
+.logo-img{
+    display: flex;
+    justify-content: center;
 }
 
-.log,
-.past-info {
-  text-align: center;
-  font-family: "Lato", sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-  color: darkslategray;
+.l-img{
+    width: 70%;
+    border: 2px solid gainsboro;
+    padding: 20px;
 }
 
-.logo-img {
-  display: flex;
-  justify-content: center;
+.part-cards{
+    padding-top: 30px;
 }
 
-.l-img {
-  width: 70%;
-  border: 2px solid gainsboro;
-  padding: 20px;
+.card-img-1{
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
-.part-cards {
-  padding-top: 30px;
+.img-1{
+    width: 85%;
+    height: 170px;
+    margin-bottom: 10px;
 }
 
-.card-img-1 {
-  display: flex;
-  justify-content: center;
-  position: relative;
-}
-
-.img-1 {
-  width: 85%;
-  height: 170px;
-  margin-bottom: 10px;
-}
-
-.img-text {
-  position: absolute;
+.img-text{
+ position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif; 
 }
 
-.year {
-  margin: 10px 2px;
+.year{
+    margin: 10px 2px;
+}
+.img-text p{
+    font-size: 16px;
+}
+.partner{
+    text-align: center;
+}
+.partner-img{
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 10px;
 }
 
-.img-text p {
-  font-size: 16px;
+.supporter{
+    width: 35%;
+    padding: 5px;
+    margin: 5px;
 }
 
-.partner {
-  text-align: center;
+
+.sub-footer{
+    display: flex;
+    font-family:'Lato', sans-serif; 
 }
 
-.partner-img {
-  background-color: rgb(48, 48, 48);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 50px 10px;
+.sub-footer h3,p{
+    padding: 15px;
+    margin: 0;
 }
 
-.supporter {
-  width: 35%;
-  padding: 5px;
-  margin: 5px;
-}
 
-.sub-footer {
-  display: flex;
-  font-family: "Lato", sans-serif;
-}
+@media only screen and (min-width: 768px) {
+    p.text.text2{
+        color: rgb(202, 199, 199);
+        font-size: 15px;
+        width: 80%;
+        padding: 20px;
+    }
+    .contact{
+        font-size: 20px;
+        padding: 10px;
+    }
 
-.sub-footer h3,
-p {
-  padding: 15px;
-  margin: 0;
+    .wlcm h3{
+        color:#e65242;
+        text-align: center;
+        margin:0;
+        font-family: 'Lato', sans-serif; 
+        font-weight: 600;
+    }
+    .logo-img2{
+        display: flex;
+        justify-content: center;
+    }
+
+    .l-img{
+        width: 30%;
+    }
+   .log{
+    width: 60%;
+    margin:auto;
+    font-family: 'Lato', sans-serif; 
+   }
+   .part-cards{
+       display: flex;
+       justify-content: center;
+   }
+
+   .img-1{
+       width: 350px;
+       margin: 30px;
+   }
+   .partner,.partner-img{
+       display: none;
+   }
+
+   .sub-footer{
+       color: white;
+       background-color: rgb(48, 48, 48);
+   }
 }
