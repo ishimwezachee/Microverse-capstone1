@@ -20,56 +20,40 @@ body {
   z-index: 2;
 }
 
-/* .desktop {
+.logo-img,
+.nav-lists {
   display: none;
-} */
-
-.logo-img,.nav-lists{
-    display: none;
 }
 
-.logo-img{
-    display: none;
+.logo-img {
+  display: none;
 }
 
-/* .nav-lists{
-    display: block;
-    background-color: red;
-} */
-
-
-.column{
-    position: fixed;
-    right: 0;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    background-color: white;
-    flex-direction: column;
-    color: white;
-    z-index: 999;
-    margin: 0;
-    padding: 0;
-    align-items: flex-start;
-    justify-content: flex-start;
-    font-family: "Lato", sans-serif;
+.column {
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  flex-direction: column;
+  color: white;
+  z-index: 999;
+  margin: 0;
+  padding: 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-family: "Lato", sans-serif;
 }
 
-/*
-
-.close-nav .nav-link{
-    color: gray;
-} */
-
-.nav-link{
-    list-style: none;
-    text-decoration: none;
-    font-size: 30px;
-    font-family: "Lato", sans-serif;
-    padding: 5px;
-    color: rgb(48, 48, 48);
-    font-weight: 800;
-    
+.nav-link {
+  list-style: none;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  padding: 5px;
+  color: rgb(48, 48, 48);
+  font-weight: 800;
 }
 
 .mob-nav-link {
@@ -110,6 +94,7 @@ body {
   font-weight: 900;
   font-family: "COCOGOOSE", sans-serif;
 }
+
 p.text {
   font-size: 17px;
   padding: 5px;
@@ -281,14 +266,12 @@ hr {
 #footer_desktop {
   display: none;
 }
-@media only screen and (min-width: 768px) {
-    .close-nav{
-        display: none;
-    }
 
-    .nav-lists{
-        display: none;
-    }
+@media only screen and (min-width: 768px) {
+  .close-nav {
+    display: none;
+  }
+
   .nav-mob {
     display: none;
   }
@@ -301,12 +284,9 @@ hr {
     background-color: whitesmoke;
     padding: 10px 0;
   }
-  .logo-img{
-    display: block;
-}
-
 
   .logo-img {
+    display: block;
     width: 10%;
     background-color: whitesmoke;
     border-radius: 50%;
@@ -348,6 +328,7 @@ hr {
   h3.date {
     font-size: 40px;
   }
+
   p.location {
     font-size: 25px;
   }
@@ -355,25 +336,27 @@ hr {
   .programs-list {
     flex-direction: column;
     text-align: center;
+    margin: 0;
+    padding: 20px;
   }
 
   .programs-lists {
     display: flex;
     padding: 4% 9%;
   }
+
   .p-element {
     padding: 3px;
   }
-  .programs-list {
-    margin: 0;
-    padding: 20px;
-  }
+
   .programs-list:hover {
     border: 1px solid white;
   }
+
   .btn {
     display: none;
   }
+
   .other {
     text-decoration: underline;
     color: whitesmoke;
@@ -384,6 +367,7 @@ hr {
   #programs {
     height: 700px;
   }
+
   .more {
     display: none;
   }
@@ -391,6 +375,7 @@ hr {
   .hide {
     display: block;
   }
+
   .artist-cards {
     display: grid;
     grid-template-columns: auto auto;
@@ -409,6 +394,7 @@ hr {
     justify-content: space-around;
     padding: 30px 10px;
   }
+
   .supporter {
     width: 15%;
     padding: 5px;

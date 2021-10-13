@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Paytone+One&family=Rubik+Mono+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
 body {
   margin: 0;
   padding: 0;
@@ -90,12 +91,15 @@ body {
 .year {
   margin: 10px 2px;
 }
+
 .img-text p {
   font-size: 16px;
 }
+
 .partner {
   text-align: center;
 }
+
 .partner-img {
   background-color: rgb(48, 48, 48);
   display: flex;
@@ -129,6 +133,7 @@ body {
     width: 80%;
     padding: 20px;
   }
+
   .contact {
     font-size: 20px;
     padding: 10px;
@@ -141,11 +146,13 @@ body {
   .l-img {
     width: 30%;
   }
+
   .log {
     width: 60%;
     margin: auto;
     font-family: "Lato", sans-serif;
   }
+
   .part-cards {
     display: flex;
     justify-content: center;
@@ -155,6 +162,7 @@ body {
     width: 350px;
     margin: 30px;
   }
+
   .partner,
   .partner-img {
     display: none;
