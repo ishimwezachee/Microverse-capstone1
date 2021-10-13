@@ -157,6 +157,9 @@ hr {
   justify-content: center;
 }
 
+.other{
+    display: none;
+}
 .A-title {
   text-align: center;
 }
@@ -281,5 +284,35 @@ hr {
       }
       p.location{
           font-size: 25px;
+      }
+
+      .programs-list{
+          flex-direction: column;
+          text-align: center;
+      }
+
+      .programs-lists{
+          display: flex;
+          padding: 4% 9%;
+      }
+      .p-element{
+          padding: 3px;
+      }
+      .programs-list{
+          margin:0;
+          padding: 20px;
+      }
+      .btn{
+          display: none;
+      }
+      .other{
+          text-decoration: underline;
+          color: whitesmoke;
+          text-align: center;
+          padding-top: 5%;
+      }
+
+      #programs {
+        height: 700px;
       }
 }
