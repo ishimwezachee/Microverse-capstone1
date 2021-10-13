@@ -228,6 +228,9 @@ hr {
   display: none;
 }
 
+#footer_desktop{
+    display: none;
+}
 @media only screen and (min-width: 768px) {
     .nav-mob{
         display: none;
@@ -322,12 +325,45 @@ hr {
    .more{
        display: none;
    }
-   
+
    .hide{
        display: block;
    }
    .artist-cards{
        display: grid;
        grid-template-columns: auto auto;
+       padding:3% 7%;
    }
+
+   #footer_desktop{
+    display: block;
+    background-color: rgb(48, 48, 48);
+    padding: 2px;
+}
+
+.partner-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px 10px;
+  }
+  .supporter {
+    width: 15%;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .sub-footer {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Lato", sans-serif;
+    background-color: whitesmoke;
+    padding: 30px;
+  }
+
+  .partner{
+      text-align: center;
+      font-family: "Lato", sans-serif;
+  }
+
 }
