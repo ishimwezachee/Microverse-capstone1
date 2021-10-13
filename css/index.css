@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
 @import url("http://fonts.cdnfonts.com/css/cocogoose");
+
 body {
   margin: 0;
   padding: 0;
@@ -19,12 +20,16 @@ body {
   z-index: 2;
 }
 
-#head a {
+.desktop{
+    display: none;
+}
+
+.mob-nav-link{
   text-decoration: none;
   color: #d3d3d3;
   font-size: 30px;
-  font-family: ;
 }
+
 .image-top {
   background-image: url("../images/backround.jpg");
   background-repeat: no-repeat;
@@ -134,6 +139,7 @@ hr {
 .fas {
   font-size: 30px;
 }
+
 .global {
   width: 75%;
   height: 70px;
@@ -216,4 +222,64 @@ hr {
 
 .hide {
   display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .nav-mob{
+        display: none;
+    }
+
+    .desktop{
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: whitesmoke;
+        padding: 10px 0;
+    }
+
+    .logo-img{
+        width: 10%;
+        background-color: whitesmoke;
+        border-radius: 50%;
+        padding-left: 50px;
+    }
+
+    .nav-lists{
+        display: flex;
+         list-style: none;
+         margin: 0;
+         margin-right: 100px;
+    }
+
+    .nav-link {
+        margin-left: 28px;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 44px;
+        color: black;
+        text-decoration: none;
+      }
+
+      .hello{
+          font-size: 40px;
+      }
+
+      #wlcm-section {
+        top: 15%;
+        left: 15%;
+      }
+
+      p.text{
+          font-size: 20px;
+          width: 70%;
+          padding:5px 15px;
+      }
+
+      h3.date{
+          font-size: 40px;
+      }
+      p.location{
+          font-size: 25px;
+      }
 }
