@@ -11,7 +11,7 @@ Desktop view                                      |  Mobile Header view
 
 ## Built With
 
-- HTML 
+- HTML5 
 - CSS
 - JS 
 
@@ -19,6 +19,8 @@ Desktop view                                      |  Mobile Header view
 
 [Site Link](https://ishimwezachee.github.io/Rwanda-all-stars-concert/)
 
+## Video Documentation
+[Click here to see the project documentation video]()
 
 ## Getting Started
 To get a local copy, just follow the steps That I am going to mention bellow:
@@ -56,6 +58,10 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+- Original design idea by
+[Cindy Shin in Behance](https://www.behance.net/adagio07)
 
 ## 📝 License
 

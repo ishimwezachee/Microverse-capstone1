@@ -98,23 +98,26 @@ body {
 p.text {
   font-size: 17px;
   padding: 5px;
-  color: #d3d3d3;
+  color: rgb(75, 74, 74);
+  background-color: whitesmoke;
   line-height: 1.4;
-  border: 2px solid #bcbaba;
+  border: 2px solid white;
+  font-family: "Lato", sans-serif;
 }
 
 .date {
   font-size: 25px;
-  color: #d3d3d3;
+  color: #252525;
   font-weight: 700;
   margin-bottom: 2px;
 }
 
 .location {
   font-size: 22px;
-  color: #d3d3d3;
+  color: #3b3a3a;
   font-family: "Lato", sans-serif;
   margin-top: 0;
+  font-weight: 600;
 }
 
 .p-title {
@@ -166,7 +169,7 @@ hr {
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 830px;
+  height: 850px;
 }
 
 .fas {
@@ -263,7 +266,29 @@ hr {
   display: none;
 }
 
-#footer_desktop {
+.partner {
+  text-align: center;
+}
+
+.partner-img {
+  background-color: rgb(48, 48, 48);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 10px;
+}
+
+.supporter {
+  width: 30%;
+  padding: 5px;
+}
+
+.sub-footer {
+  display: flex;
+  font-family: "Lato", sans-serif;
+}
+
+.top-nav {
   display: none;
 }
 
@@ -284,31 +309,35 @@ hr {
     background-color: whitesmoke;
   }
 
-  .top-nav{
+  .top-nav {
     display: flex;
     justify-content: flex-end;
     list-style: none;
     padding: 5px !important;
   }
 
-.black-nav .top-nav{
-  background-color: rgb(80, 80, 80);
-  margin: 0;
-  padding: 10px;
-  padding-right: 50px;
-}
+  .black-nav .top-nav {
+    background-color: rgb(80, 80, 80);
+    margin: 0;
+    padding: 10px;
+    padding-right: 50px;
+  }
 
-.top-nav-link{
-  font-size: 16px;
-  text-decoration: none;
-  margin-right: 20px;
-  color: white;
-  font-family: "Lato", sans-serif;
-}
-  .low-nav{
+  .top-nav-link {
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    font-family: "Lato", sans-serif;
+  }
+
+  .top-nav-link:hover{
+    color: #e65242;
+  }
+  .low-nav {
     display: flex;
-   background-color: white;
-   align-items: center;
+    background-color: white;
+    align-items: center;
   }
 
   .logo-img {
@@ -335,7 +364,7 @@ hr {
     color: black;
     text-decoration: none;
   }
-  .nav-link:hover{
+  .nav-link:hover {
     color: #e65242;
   }
 
@@ -349,9 +378,10 @@ hr {
   }
 
   p.text {
-    font-size: 20px;
+    font-size: 15px;
     width: 70%;
-    padding: 5px 15px;
+    padding: 20px 15px;
+    line-height: 1.5;
   }
 
   h3.date {
@@ -441,5 +471,11 @@ hr {
   .partner {
     text-align: center;
     font-family: "Lato", sans-serif;
+  }
+  a.nav-link.contact-link {
+    color: rgb(223, 49, 57);
+    border: 2px solid rgb(223, 49, 57);
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
