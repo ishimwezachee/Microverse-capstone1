@@ -303,7 +303,6 @@ hr {
 
   .desktop {
     display: block;
-    /* display: flex; */
     align-items: center;
     justify-content: space-between;
     background-color: whitesmoke;
@@ -331,9 +330,10 @@ hr {
     font-family: "Lato", sans-serif;
   }
 
-  .top-nav-link:hover{
+  .top-nav-link:hover {
     color: #e65242;
   }
+
   .low-nav {
     display: flex;
     background-color: white;
@@ -364,6 +364,7 @@ hr {
     color: black;
     text-decoration: none;
   }
+
   .nav-link:hover {
     color: #e65242;
   }
@@ -472,6 +473,7 @@ hr {
     text-align: center;
     font-family: "Lato", sans-serif;
   }
+
   a.nav-link.contact-link {
     color: rgb(223, 49, 57);
     border: 2px solid rgb(223, 49, 57);
