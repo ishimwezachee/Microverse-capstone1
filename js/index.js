@@ -3,6 +3,30 @@ const navList = document.querySelector('.nav-lists');
 const times = document.querySelector('.times');
 const navLink = document.querySelectorAll('.nav-link');
 const artists = document.querySelector('.artist-cards');
+
+function closeNavItems() {
+  navList.classList.replace('column', 'nav-lists');
+  navList.style.display = '';
+}
+
+humberg.addEventListener('click', () => {
+  navList.classList.replace('nav-lists', 'column');
+  times.classList.add('fa-times');
+  navList.style.display = 'block';
+});
+
+times.addEventListener('click', () => {
+  closeNavItems();
+});
+
+navLink.forEach((link) => {
+  link.addEventListener('click', () => {
+    if (window.innerWidth < 768) {
+      closeNavItems();
+    }
+  });
+});
+
 const data = [
   {
     name: 'Meddy',
@@ -41,29 +65,6 @@ const data = [
     image: 'images/platnum.png',
   },
 ];
-
-function closeNavItems() {
-  navList.classList.replace('column', 'nav-lists');
-  navList.style.display = '';
-}
-
-humberg.addEventListener('click', () => {
-  navList.classList.replace('nav-lists', 'column');
-  times.classList.add('fa-times');
-  navList.style.display = 'block';
-});
-
-times.addEventListener('click', () => {
-  closeNavItems();
-});
-
-navLink.forEach((link) => {
-  link.addEventListener('click', () => {
-    if (window.innerWidth < 768) {
-      closeNavItems();
-    }
-  });
-});
 
 data.forEach((card) => {
   artists.innerHTML += `
