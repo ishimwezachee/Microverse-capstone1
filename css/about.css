@@ -127,10 +127,10 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  #partner hr{
+  #partner hr {
     display: none;
   }
-  
+
   p.text.text2 {
     color: rgb(75, 74, 74);
     border: 2px solid white;
